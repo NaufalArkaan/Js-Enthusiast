@@ -1,4 +1,4 @@
-const Note = require('./Note');
+const Note = require('./Note'); //import
 
 let note = new Note();
 note.addIncome("Gaji bulanan", 5000);
