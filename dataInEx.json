@@ -1,0 +1,26 @@
+{
+   "incomes": [
+      {
+         "name": "gaji bulan",
+         "total": 5000,
+         "category": "income"
+      },
+      {
+         "name": "Uang cair",
+         "total": 3000,
+         "category": "income"
+      }
+   ],
+   "expenses": [
+      {
+         "name": "bayar air",
+         "total": 1000,
+         "category": "expense"
+      },
+      {
+         "name": "Bayar utang",
+         "total": 3000,
+         "category": "expense"
+      }
+   ]
+}
