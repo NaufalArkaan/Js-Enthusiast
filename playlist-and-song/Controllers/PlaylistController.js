@@ -4,14 +4,14 @@ class PlaylistController{
     static show(){
         Playlist.show();
     }
-    static add(){
-        console.log("add controller");
+    static add(params){
+        Playlist.add(params)
     }
-    static remove(){
-        console.log("remove controller");
+    static remove(params){
+        Playlist.remove(params)
     }
-    static make(){
-        console.log("make controller");
+    static make(params){
+        Playlist.make(params)
     }
 }
 module.exports = PlaylistController;

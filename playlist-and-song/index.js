@@ -4,16 +4,16 @@ const PlaylistController = require('./Controllers/PlaylistController');
 
 switch(command){
     case 'add':
-        PlaylistController.add()
+        PlaylistController.add(params)
         break;
     case 'remove':
-        PlaylistController.remove()
+        PlaylistController.remove(params)
         break;
     case 'make':
-        PlaylistController.make();
+        PlaylistController.make(params);
         break;
     case 'showPlaylist':
-        PlaylistController.show()
+        PlaylistController.show(params)
         break;
     default:
         console.log("Invalid");
