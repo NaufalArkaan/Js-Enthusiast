@@ -14,8 +14,8 @@
         </div>
         <div class="body_todo">
             <div class="input_body">
-                <input type="text" placeholder="Masukan task.">
-                <button>+ Add Task</button>
+                <input type="text" placeholder="Masukan task." id="task_form">
+                <button id="btn_click">+ Add Task</button>
             </div>
             <div class="table_body">
                 <table border="1" cellspacing = "0">
@@ -26,16 +26,13 @@
                             <th>Status</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Belajar DOM</td>
-                            <td>True</td>
-                        </tr>
+                    <tbody id="tBody">
+
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
