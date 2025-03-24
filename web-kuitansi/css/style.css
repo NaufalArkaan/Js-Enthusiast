@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item{
+    width: 50%;
+    height: 75vh;
+    border: 1px solid brown;
+    padding: 10px;
+}
+
+.form-header{
+    color: crimson;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 8px;
+}
+
+.form-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*column akan kebawah*/
+    margin-bottom: 10px;
+}
+
+.form-item input{
+    padding: 8xp;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.form-item label{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+#btnSubmit{
+    padding: 8px 16px;
+    border: none;
+}
