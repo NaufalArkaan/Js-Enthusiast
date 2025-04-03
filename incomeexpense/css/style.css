@@ -113,3 +113,10 @@ body {
 th,td{
     padding: 8px;
 }
+.saldo-box{
+    width: 100%;
+    text-align: center;
+}
+.saldo-box h1{
+    font-size: 63px;
+}
